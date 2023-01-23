@@ -3,6 +3,7 @@ package jp.ac.it_college.std.s21014.map
 import android.Manifest
 import android.annotation.SuppressLint
 import android.content.DialogInterface
+import android.content.Intent
 import android.content.pm.PackageManager
 import android.graphics.Color
 import android.location.Location
@@ -182,7 +183,14 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnMarker
             )
             map?.moveCamera(CameraUpdateFactory.newLatLng(park))
         }
+
         map?.setOnMarkerClickListener(this)
+
+        map?.setOnMarkerClickListener {
+            val intent = Intent(this, ParkDetails::class.java)
+            startActivity(intent)
+            return@setOnMarkerClickListener false
+        }
     }
 
     @SuppressLint("MissingPermission")
