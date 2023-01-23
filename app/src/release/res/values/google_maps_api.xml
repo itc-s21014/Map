@@ -1,0 +1,4 @@
+<resources>
+    <string name="com.google.android.geo.API_KEY" templateMergeStrategy="preserve"
+        translatable="false">AIzaSyDq0CbpNeT-3osc_VHEa9Kd7PqS5EVx0jc</string>
+</resources>
