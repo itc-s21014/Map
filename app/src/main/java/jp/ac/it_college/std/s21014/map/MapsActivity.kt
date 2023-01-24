@@ -186,17 +186,20 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnMarker
 
         map?.setOnMarkerClickListener(this)
 
+
         map?.setOnMarkerClickListener {
             val intent = Intent(this, SubActivity::class.java)
             startActivity(intent)
             return@setOnMarkerClickListener true
         }
 
+        /*
         map?.setOnMarkerClickListener {
             val intent = Intent()
             startActivity(intent)
             return@setOnMarkerClickListener true
         }
+         */
     }
 
     @SuppressLint("MissingPermission")
