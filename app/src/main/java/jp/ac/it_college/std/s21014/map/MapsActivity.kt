@@ -91,7 +91,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnMarker
 
         // Obtain the SupportMapFragment and get notified when the map is ready to be used.
         val mapFragment = supportFragmentManager
-            .findFragmentById(R.id.map) as SupportMapFragment?
+            .findFragmentById(R.id.Map) as SupportMapFragment?
         mapFragment?.getMapAsync(this)
     }
 
@@ -139,7 +139,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnMarker
 
             override fun getInfoContents(marker: Marker): View {
                 val infoWindow = layoutInflater.inflate(R.layout.custom_info_contents,
-                    findViewById<FrameLayout>(R.id.map), false)
+                    findViewById<FrameLayout>(R.id.Map), false)
                 val title = infoWindow.findViewById<TextView>(R.id.title)
                 title.text = marker.title
                 val snippet = infoWindow.findViewById<TextView>(R.id.snippet)
@@ -187,9 +187,15 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnMarker
         map?.setOnMarkerClickListener(this)
 
         map?.setOnMarkerClickListener {
-            val intent = Intent(this, ParkDetails::class.java)
+            val intent = Intent(this, SubActivity::class.java)
             startActivity(intent)
-            return@setOnMarkerClickListener false
+            return@setOnMarkerClickListener true
+        }
+
+        map?.setOnMarkerClickListener {
+            val intent = Intent()
+            startActivity(intent)
+            return@setOnMarkerClickListener true
         }
     }
 
