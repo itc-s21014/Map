@@ -186,16 +186,15 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnMarker
 
         map?.setOnMarkerClickListener(this)
 
-
-        map?.setOnMarkerClickListener {
+        map?.setOnInfoWindowClickListener {
             val intent = Intent(this, SubActivity::class.java)
             startActivity(intent)
-            return@setOnMarkerClickListener true
+            return@setOnInfoWindowClickListener
         }
 
         /*
         map?.setOnMarkerClickListener {
-            val intent = Intent()
+            val intent = Intent(this, SubActivity::class.java)
             startActivity(intent)
             return@setOnMarkerClickListener true
         }

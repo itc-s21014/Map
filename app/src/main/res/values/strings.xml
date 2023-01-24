@@ -7,5 +7,6 @@
     <string name="pick_place">Choose a place</string>
     <string name="map">地図</string>
     <string name="search">検索</string>
+    <string name="back">戻る</string>
     <string name="miehashi_park">美栄橋公園</string>
 </resources>
