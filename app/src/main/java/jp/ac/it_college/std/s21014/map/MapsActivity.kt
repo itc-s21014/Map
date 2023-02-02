@@ -165,9 +165,11 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnMarker
         val dataJson: String = bufferedReader.readText()
         // Jsonファイルのセット
         val rootJson = JSONArray(dataJson)
+
         // マーカー表示
         for (i in 0 until rootJson.length()) {
             val data = rootJson.getJSONObject(i)
+            val id = data.getString("id")
             val parkName = data.getString("park")
             val address = data.getString("address")
             val lat = data.getDouble("latitude")
@@ -180,25 +182,20 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnMarker
                     .title(parkName)
                     .snippet(address)
                     .icon(BitmapDescriptorFactory.fromResource(R.mipmap.park))
-            )
+            )?.tag = id
             map?.moveCamera(CameraUpdateFactory.newLatLng(park))
         }
 
         map?.setOnMarkerClickListener(this)
 
-        map?.setOnInfoWindowClickListener {
-            val intent = Intent(this, SubActivity::class.java)
+        map?.setOnInfoWindowClickListener { marker ->
+            val id = marker.tag.toString()
+            val intent = Intent(this@MapsActivity, SubActivity::class.java).apply {
+                putExtra("id", id)
+            }
             startActivity(intent)
             return@setOnInfoWindowClickListener
         }
-
-        /*
-        map?.setOnMarkerClickListener {
-            val intent = Intent(this, SubActivity::class.java)
-            startActivity(intent)
-            return@setOnMarkerClickListener true
-        }
-         */
     }
 
     @SuppressLint("MissingPermission")
