@@ -15,25 +15,28 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/park"
+        android:id="@+id/parkName"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:text="@string/miehashi_park"
+        android:layout_marginEnd="8dp"
         android:textSize="34sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/back" />
+        app:layout_constraintTop_toBottomOf="@+id/back"
+        tools:text="@string/miehashi_park" />
 
     <ImageView
-        android:layout_width="wrap_content"
+        android:id="@+id/parkImage"
+        android:layout_width="0dp"
         android:layout_height="0dp"
+        android:scaleType="centerInside"
         app:layout_constraintBottom_toTopOf="@+id/map"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/park"
-        app:srcCompat="@drawable/miehashi" />
+        app:layout_constraintTop_toBottomOf="@+id/parkName"
+        tools:srcCompat="@drawable/miehashi" />
 
     <Button
         android:id="@+id/map"
