@@ -2,121 +2,136 @@
   {
     "id": "1",
     "park": "緑ヶ丘公園",
-    "address": "沖縄県那覇市牧志1丁目4−49",
-    "latitude": "26.217439",
-    "longitude": "127.686756",
-    "link": "https://tagoo.jp/docs/wp-content/uploads/2017/03/170329_1804_03.jpg"
+    "address": "沖縄県那覇市牧志1丁目5−16",
+    "latitude": "26.2173973",
+    "longitude": "127.6842519",
+    "link": "https://tagoo.jp/docs/wp-content/uploads/2017/03/170329_1804_03.jpg",
+    "distance": "ITカレッジから750m"
   },
   {
     "id": "2",
     "park": "崇元寺公園",
-    "address": "沖縄県那覇市泊1丁目9−9",
-    "latitude": "26.220509",
-    "longitude": "127.690936",
-    "link": "https://1.bp.blogspot.com/-wvsJq4qZTkI/X9mtSTz2hHI/AAAAAAABeLY/jG5ea0giUy8fLyFopobebwd73WJDpfArACPcBGAsYHg/s960/naha1501_119.jpg"
+    "address": "沖縄県那覇市安里1丁目9",
+    "latitude": "26.2206593",
+    "longitude": "127.6905447",
+    "link": "https://1.bp.blogspot.com/-wvsJq4qZTkI/X9mtSTz2hHI/AAAAAAABeLY/jG5ea0giUy8fLyFopobebwd73WJDpfArACPcBGAsYHg/s960/naha1501_119.jpg",
+    "distance": "ITカレッジから1.9km"
   },
   {
     "id": "3",
     "park": "与儀公園",
     "address": "沖縄県那覇市寄宮1丁目1−1",
-    "latitude": "26.207795",
-    "longitude": "127.692524",
-    "link": "https://www.okinawastory.jp/files/attractions/600/012/263/images_fe046348e6e1518a153e832d001c1deb5a719385-w800.jpg"
+    "latitude": "26.20862008",
+    "longitude": "127.69257653",
+    "link": "https://www.okinawastory.jp/files/attractions/600/012/263/images_fe046348e6e1518a153e832d001c1deb5a719385-w800.jpg",
+    "distance": "ITカレッジから850m"
   },
   {
     "id": "4",
     "park": "美栄橋公園",
-    "address": "沖縄県那覇市久茂地3丁目19",
+    "address": "沖縄県那覇市久茂地3丁目19-1",
     "latitude": "26.214974",
     "longitude": "127.680561",
-    "link": "https://1.bp.blogspot.com/-qHOURU7Bb20/X9mtSfSHNsI/AAAAAAABeLY/HwwT8Ua2sVsvk5ppyihfFl2SYsAJSb01gCPcBGAsYHg/w1200-h630-p-k-no-nu/naha1501_146.jpg"
+    "link": "https://1.bp.blogspot.com/-qHOURU7Bb20/X9mtSfSHNsI/AAAAAAABeLY/HwwT8Ua2sVsvk5ppyihfFl2SYsAJSb01gCPcBGAsYHg/w1200-h630-p-k-no-nu/naha1501_146.jpg",
+    "distance": "ITカレッジから1.1km"
   },
   {
     "id": "5",
-    "park": "真嘉比公園",
-    "address": "沖縄県那覇市松川432",
-    "latitude": "26.220714",
-    "longitude": "127.7055092",
-    "link": "https://i0.wp.com/odekake47.com/wp-content/uploads/2019/07/19p28044-01makabnisi.jpg?fit=650%2C430&ssl=1"
+    "park": "真嘉比中央公園",
+    "address": "沖縄県那覇市真嘉比3丁目15-29",
+    "latitude": "26.223800",
+    "longitude": "127.704516",
+    "link": "https://i0.wp.com/odekake47.com/wp-content/uploads/2019/07/19p28044-01makabnisi.jpg?fit=650%2C430&ssl=1",
+    "distance": "ITカレッジから3.2km"
   },
   {
     "id": "6",
     "park": "旭ヶ丘公園",
-    "address": "沖縄県那覇市若狭1丁目25",
-    "latitude": "26.220879",
-    "longitude": "127.672322",
-    "link": "https://1.bp.blogspot.com/-vEfOXX_nMws/X9dJ5PrfFhI/AAAAAAABeGU/MOd8vP6-A3YXALrEkcpKVqL4SUSGCSd7wCPcBGAsYHg/s1800/naha-2067.jpg"
+    "address": "沖縄県那覇市若狭1丁目",
+    "latitude": "26.2201746",
+    "longitude": "127.67230218",
+    "link": "https://1.bp.blogspot.com/-vEfOXX_nMws/X9dJ5PrfFhI/AAAAAAABeGU/MOd8vP6-A3YXALrEkcpKVqL4SUSGCSd7wCPcBGAsYHg/s1800/naha-2067.jpg",
+    "distance": "ITカレッジから2.2km"
   },
   {
     "id": "7",
     "park": "天久ちゅらまち公園",
     "address": "沖縄県那覇市天久1丁目3",
-    "latitude": "26.231306",
-    "longitude": "127.688670",
-    "link": "https://cdn-ak.f.st-hatena.com/images/fotolife/r/ruuchel/20170906/20170906082019.jpg"
+    "latitude": "26.23195749",
+    "longitude": "127.68863368",
+    "link": "https://cdn-ak.f.st-hatena.com/images/fotolife/r/ruuchel/20170906/20170906082019.jpg",
+    "distance": "ITカレッジから2.8km"
   },
   {
     "id": "8",
     "park": "壷川中公園",
-    "address": "沖縄県那覇市壺川2丁目1−14 パークサイド壷川",
-    "latitude": "26.204761",
-    "longitude": "127.680590",
-    "link": "https://churatown.com/common/image2.php?1=1&w=303&c=1&r=10,7&f=%2Fdb%5Fimg%2Fcl%5Fimg%2F3643%2Fphoto%2Fphoto%5Fimg%5F20201119120107962%2Ejpg"
+    "address": "沖縄県那覇市壺川2丁目2-4-3",
+    "latitude": "26.20455834",
+    "longitude": "127.68028805",
+    "link": "https://churatown.com/common/image2.php?1=1&w=303&c=1&r=10,7&f=%2Fdb%5Fimg%2Fcl%5Fimg%2F3643%2Fphoto%2Fphoto%5Fimg%5F20201119120107962%2Ejpg",
+    "distance": "ITカレッジから1.4km"
   },
   {
     "id": "9",
     "park": "牧志公園",
-    "address": "沖縄県那覇市牧志2丁目8",
-    "latitude": "26.217806",
-    "longitude": "127.692000",
-    "link": "https://2.bp.blogspot.com/-XHS7ApFOMhA/T8zNrxgbfFI/AAAAAAAADGM/45QKalJDvn0/s1600/makishi+%25283%2529.jpg"
+    "address": "沖縄県那覇市牧志2丁目270番3",
+    "latitude": "26.21803429",
+    "longitude": "127.69179994",
+    "link": "https://2.bp.blogspot.com/-XHS7ApFOMhA/T8zNrxgbfFI/AAAAAAAADGM/45QKalJDvn0/s1600/makishi+%25283%2529.jpg",
+    "distance": "ITカレッジから1.6km"
   },
   {
     "id": "10",
     "park": "弁ヶ岳公園",
-    "address": "沖縄県那覇市首里鳥堀町4丁目64",
-    "latitude": "26.217660",
-    "longitude": "127.730411",
-    "link": "https://www.midorihana-okinawa.jp/uploads/2020/03/mei90-1-1.jpg"
+    "address": "沖縄県那覇市首里鳥堀町4丁目",
+    "latitude": "26.2178862",
+    "longitude": "127.7311961",
+    "link": "https://www.midorihana-okinawa.jp/uploads/2020/03/mei90-1-1.jpg",
+    "distance": "ITカレッジから6.5km"
   },
   {
     "id": "11",
     "park": "末吉公園",
-    "address": "沖縄県那覇市首里末吉町1丁目",
-    "latitude": "26.228013",
-    "longitude": "127.713577",
-    "link": "https://img04.ti-da.net/usr/t/i/d/tidanews/DSCN1763.JPG"
+    "address": "沖縄県那覇市首里末吉町1丁目3-1",
+    "latitude": "26.2279815",
+    "longitude": "127.7140951",
+    "link": "https://img04.ti-da.net/usr/t/i/d/tidanews/DSCN1763.JPG",
+    "distance": "ITカレッジから4,6km"
   },
   {
     "id": "12",
     "park": "黄金森公園",
-    "address": "沖縄県島尻郡南風原町喜屋武 字 黄金森公園多目的広場",
-    "latitude": "26.187516",
-    "longitude": "127.733485",
-    "link": "https://img04.ti-da.net/usr/t/i/d/tidanews/okinawapark_naha_7.jpg"
+    "address": "沖縄県島尻郡南風原町喜屋武697",
+    "latitude": "26.1897555",
+    "longitude": "127.7322615",
+    "link": "https://img04.ti-da.net/usr/t/i/d/tidanews/okinawapark_naha_7.jpg",
+    "distance": "ITカレッジから6.7km"
   },
   {
     "id": "13",
-    "park": "森口公園",
-    "address": "沖縄県那覇市小禄263",
-    "latitude": "26.196126",
-    "longitude": "127.673993",
-    "link": "https://1.bp.blogspot.com/-t9pz2-hHq08/X9w9GLbe_fI/AAAAAAABeU4/eI50deSle4wdq7c7ad6hWxHyaD6UfndaACPcBGAsYHg/s960/naha1601_125.jpg"
+      "park": "森口公園",
+    "address": "沖縄県那覇市小禄79",
+    "latitude": "26.1974752",
+    "longitude": "127.6736553",
+    "link": "https://1.bp.blogspot.com/-t9pz2-hHq08/X9w9GLbe_fI/AAAAAAABeU4/eI50deSle4wdq7c7ad6hWxHyaD6UfndaACPcBGAsYHg/s960/naha1601_125.jpg",
+    "distance": "ITカレッジから3.0km"
   },
   {
     "id": "14",
     "park": "にじ公園",
-    "address": "沖縄県豊見城市豊崎1−203",
-    "latitude": "26.153868",
-    "longitude": "127.659179",
-    "link": "https://www.goyah.net/upfile/okinawa_park/toyosakinijipark_pic.png"
+    "address": "沖縄県豊見城市豊崎1−890",
+    "latitude": "26.1539468",
+    "longitude": "127.6591036",
+    "link": "https://www.goyah.net/upfile/okinawa_park/toyosakinijipark_pic.png",
+    "distance": "ITカレッジから9.7km"
   },
   {
     "id": "15",
-    "park": "海軍豪公園",
-    "address": "沖縄県豊見城市豊見城276",
-    "latitude": "26.185090",
-    "longitude": "127.676634",
-    "link": "https://oki-raku.net/tabinaka/wp-content/uploads/2022/10/03%E6%B5%B7%E8%BB%8D%E5%A3%95%E5%85%AC%E5%9C%92_%E9%81%8A%E5%85%B71.jpg"
+    "park": "海軍壕公園",
+    "address": "沖縄県那覇市小禄1066",
+    "latitude": "26.1863653",
+    "longitude": "127.6759881",
+    "link": "https://oki-raku.net/tabinaka/wp-content/uploads/2022/10/03%E6%B5%B7%E8%BB%8D%E5%A3%95%E5%85%AC%E5%9C%92_%E9%81%8A%E5%85%B71.jpg",
+    "distance": "ITカレッジから4.7km"
   }
 ]
