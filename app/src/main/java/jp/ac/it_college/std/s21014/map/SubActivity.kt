@@ -33,6 +33,8 @@ class SubActivity : AppCompatActivity() {
             val currentId = data.getString("id")
             if (currentId == id) {
                 binding.parkName.text = data.getString("park")
+                binding.time.text = data.getString("time")
+                binding.distance.text = data.getString("distance")
                 Picasso.get().load(data.getString("link"))
                     .into(binding.parkImage)
             }
