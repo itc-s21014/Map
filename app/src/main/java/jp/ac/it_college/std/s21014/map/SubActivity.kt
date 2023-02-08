@@ -41,7 +41,12 @@ class SubActivity : AppCompatActivity() {
         }
 
         binding.back.setOnClickListener {
-            val intent = Intent(this, MapsActivity::class.java)
+            val intent = Intent(this, MapActivity::class.java)
+            startActivity(intent)
+        }
+
+        binding.search.setOnClickListener {
+            val intent = Intent(this, SearchActivity::class.java)
             startActivity(intent)
         }
     }
