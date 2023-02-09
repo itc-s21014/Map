@@ -24,7 +24,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
             .findFragmentById(R.id.Map) as SupportMapFragment
         mapFragment.getMapAsync(this)
 
-        binding.search.setOnClickListener {
+        binding.Search.setOnClickListener {
             val intent = Intent(this, SearchActivity::class.java)
             startActivity(intent)
         }
