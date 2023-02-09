@@ -45,7 +45,7 @@ class SubActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
-        binding.search.setOnClickListener {
+        binding.Search.setOnClickListener {
             val intent = Intent(this, SearchActivity::class.java)
             startActivity(intent)
         }
