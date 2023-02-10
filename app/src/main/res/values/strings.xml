@@ -9,8 +9,11 @@
     <string name="map">地図</string>
     <string name="search">検索</string>
     <string name="search_2">検索</string>
+    <string name="search_3">検索</string>
     <string name="prefectures">都道府県</string>
     <string name="municipalities">市区町村</string>
     <string name="distance">距離 :</string>
     <string name="time">時間 :</string>
+    <string name="Search">検索</string>
+    <string name="no_match">No match found</string>
 </resources>
