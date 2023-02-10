@@ -6,8 +6,13 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ArrayAdapter
 import android.widget.SearchView
+import android.widget.TextView
 import android.widget.Toast
+import com.squareup.picasso.Picasso
 import jp.ac.it_college.std.s21014.map.databinding.ActivitySearchBinding
+import org.json.JSONArray
+import java.io.BufferedReader
+import java.io.InputStreamReader
 
 class SearchActivity : AppCompatActivity() {
     private lateinit var binding: ActivitySearchBinding
@@ -161,7 +166,7 @@ class SearchActivity : AppCompatActivity() {
             val intent = Intent(this, MapActivity::class.java)
             startActivity(intent)
         }
-        binding.search3.setOnClickListener {
+        binding.listView.setOnItemClickListener { parent, view, position, id ->
             val intent = Intent(this, SubActivity::class.java)
             startActivity(intent)
         }
