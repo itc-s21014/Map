@@ -54,6 +54,12 @@ class SearchActivity : AppCompatActivity() {
         "与那国町",
     )
 
+    val data2 = mutableListOf(
+        "樋川", "天久", "牧志",
+        "久茂地", "若狭", "壺川",
+        "小禄",
+    )
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivitySearchBinding.inflate(layoutInflater)
@@ -63,6 +69,11 @@ class SearchActivity : AppCompatActivity() {
             this, R.layout.simple_list_item_1, data
         )
         binding.list.adapter = adapter
+
+        val adapter2 = ArrayAdapter(
+            this, R.layout.simple_list_item_1, data2
+        )
+        binding.List.adapter = adapter2
 
         binding.back.setOnClickListener {
             val intent = Intent(this, MapsActivity::class.java)
